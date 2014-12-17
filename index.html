@@ -53,5 +53,18 @@
     <script src="content/js/jquery.1.11.0.min.js"></script>
     <script src="content/js/bootstrap.min.js"></script>
     <script src="content/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="content/js/jquery.keysequencedetector.js"></script>
+    <script>
+    $(function(){
+      $(window).keySequenceDetector('ladaia', function(){ 
+        $(".container").css("display","none");
+        $('html').css("background","url(content/img/giphy.gif) no-repeat center center fixed");
+        $('html').css("-webkit-background-size","cover");
+        $('html').css("-moz-background-size","cover");
+        $('html').css("-o-background-size","cover");
+        $('html').css("background-size","cover");
+      });
+    });
+    </script>
   </body>
 </html>
