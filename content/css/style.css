@@ -6,13 +6,14 @@ body {
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
-	width: 1170px;
+	/*width: 1170px;*/
+	width: 80%;
 }
 
 .starter-template {
   padding: 40px 15px;
   text-align: right;
-  margin-left: 160px;
+  /*margin-left: 160px;*/
   margin-top: 40px;
 }
 
@@ -25,6 +26,25 @@ body {
 }
 
 .img-ladaia {
-   margin-top: -215px;
-   margin-left: 495px;
+   /*margin-top: -215px;*/
+   /*margin-left: 495px;*/
 }
+
+#print-paragraphs{
+	background-color: #CCC;
+	padding: 20px;
+	margin: 20px 0;
+	position: relative;
+	display: none;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+/*#print-paragraphs:before,
+#print-paragraphs:after{
+	content: '"';
+	display: inline-block;
+	float: left;
+	color: black;
+	font-size: 30px;
+}*/

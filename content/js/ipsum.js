@@ -11,7 +11,7 @@ $(document).ready(function(){
       var x = Math.floor((Math.random() * words.length) + 0);
       
       phrase += '<p>' + words[x] + '</p>';
-      $("#print-paragraphs").empty().html(phrase);
+      $("#print-paragraphs").empty().html(phrase).fadeIn();;
 
       console.log(phrase);
 
@@ -43,7 +43,7 @@ $(document).ready(function(){
         paragraphs+='<p>' + sentence_group + '</p>';
       }
 
-      $("#print-paragraphs").empty().html(paragraphs);
+      $("#print-paragraphs").empty().html(paragraphs).fadeIn();
 
       return false;
       }

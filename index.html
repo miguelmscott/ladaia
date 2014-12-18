@@ -42,30 +42,33 @@
 
     <div class="container-ladaia">
       <div class="row">      
-        <div class="starter-template col-md-4">
+        <div class="starter-template pull-left col-md-6">
           <span class="title-ladaia">BAH,</span>
           <p class="description-ladaia">Mas que ladaia você por aqui.</p>
         </div>
-        <div class="col-md-8 container-img">
+        <div class="col-md-6 pull-right container-img">
           <img class="img-ladaia" src="content/img/sideshowbob.png">
         </div>
+        <div class="content-ipsum pull-left col-md-6">
+          <form id="ipsum-form" action="#" method="post">
+            <input id="default" type="radio" name="choice" value="default" style="display:none" />
+            <input id="phrase" type="radio" name="choice" value="phrase" checked />
+            <label for="phrase">Frase</label> 
+            
+            <input id="paragraph" type="radio" name="choice" value="paragraph" />
+            <label for="paragraph">Parágrafo</label>
+            <br/>
+            
+            Paragraphs: 
+            <input id="paragraph_count" style="width: 25px;" type="text" maxlength="2" />
+
+            <input type="submit" id="submit" value="Submit" />
+          </form>
+          <div id="print-paragraphs"></div>
+        </div>
+
+        
       </div>
-
-        <form id="ipsum-form" action="#" method="post">
-          <input id="default" type="radio" name="choice" value="default" style="display:none" />
-          <input id="phrase" type="radio" name="choice" value="phrase" checked />
-          <label for="phrase">Frase</label> 
-          
-          <input id="paragraph" type="radio" name="choice" value="paragraph" />
-          <label for="paragraph">Parágrafo</label>
-          <br/>
-          
-          Paragraphs: 
-          <input id="paragraph_count" style="width: 25px;" type="text" maxlength="2" />
-
-          <input type="submit" id="submit" value="Submit" />
-        </form>
-        <div id="print-paragraphs"></div>
     </div>
 
     <script src="content/js/jquery.1.11.0.min.js"></script>
