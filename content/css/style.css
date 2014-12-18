@@ -1,6 +1,14 @@
 body {
   padding-top: 50px;
 }
+.container-ladaia {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1170px;
+}
+
 .starter-template {
   padding: 40px 15px;
   text-align: right;
