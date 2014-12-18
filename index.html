@@ -50,25 +50,25 @@
           <img class="img-ladaia" src="content/img/sideshowbob.png">
         </div>
       </div>
+
+        <form id="ipsum-form" action="#" method="post">
+          <input id="default" type="radio" name="choice" value="default" style="display:none" />
+          <input id="phrase" type="radio" name="choice" value="phrase" checked />
+          <label for="phrase">Frase</label> 
+          
+          <input id="paragraph" type="radio" name="choice" value="paragraph" />
+          <label for="paragraph">Parágrafo</label>
+          <br/>
+          
+          Paragraphs: 
+          <input id="paragraph_count" style="width: 25px;" type="text" maxlength="2" />
+
+          <input type="submit" id="submit" value="Submit" />
+        </form>
+        <div id="print-paragraphs"></div>
     </div>
 
-    <form id="ipsum-form" action="#" method="post">
-      
-      <input id="default" type="radio" name="choice" value="default" style="display:none" />
-    
-      <input id="phrase" type="radio" name="choice" value="phrase" checked />
-      <label for="phrase">Frase</label> 
-      
-      <input id="paragraph" type="radio" name="choice" value="paragraph" />
-      <label for="paragraph">Parágrafo</label>
-      <br/>
-      Paragraphs: 
-      <input id="paragraph_count" style="width: 25px;" type="text" maxlength="2" />
 
-      <input type="submit" id="submit" value="Submit" />
-    </form>
-
-    <div id="print-paragraphs"></div>
 
     <script src="content/js/jquery.1.11.0.min.js"></script>
     <script src="content/js/bootstrap.min.js"></script>
