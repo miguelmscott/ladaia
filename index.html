@@ -50,12 +50,33 @@
           <img class="img-ladaia" src="content/img/sideshowbob.png">
         </div>
       </div>
-    </div> 
+    </div>
+
+    <form id="ipsum-form" action="#" method="post">
+      
+      <input id="default" type="radio" name="choice" value="default" style="display:none" />
+    
+      <input id="phrase" type="radio" name="choice" value="phrase" checked />
+      <label for="phrase">Frase</label> 
+      
+      <input id="paragraph" type="radio" name="choice" value="paragraph" />
+      <label for="paragraph">Parágrafo</label>
+      <br/>
+      Paragraphs: 
+      <input id="paragraph_count" style="width: 25px;" type="text" maxlength="2" />
+
+      <input type="submit" id="submit" value="Submit" />
+    </form>
+
+    <div id="print-paragraphs"></div>
 
     <script src="content/js/jquery.1.11.0.min.js"></script>
     <script src="content/js/bootstrap.min.js"></script>
     <script src="content/js/ie10-viewport-bug-workaround.js"></script>
     <script src="content/js/jquery.keysequencedetector.js"></script>
+    <script src="content/js/ipsum.js"></script>
+    
+    <!-- easter egg -->
     <script>
     $(function(){
       $(window).keySequenceDetector('ladaia', function(){ 
@@ -68,5 +89,6 @@
       });
     });
     </script>
+
   </body>
 </html>
