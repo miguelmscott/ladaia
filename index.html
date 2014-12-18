@@ -68,8 +68,6 @@
         <div id="print-paragraphs"></div>
     </div>
 
-
-
     <script src="content/js/jquery.1.11.0.min.js"></script>
     <script src="content/js/bootstrap.min.js"></script>
     <script src="content/js/ie10-viewport-bug-workaround.js"></script>
@@ -80,7 +78,7 @@
     <script>
     $(function(){
       $(window).keySequenceDetector('ladaia', function(){ 
-		var rand = Math.floor(Math.random() * (10 - 1 + 1)) + 1;
+		    var rand = Math.floor(Math.random() * (10 - 1 + 1)) + 1;
         $(".container").css("display","none");
         $('html').css("background","url(content/img/giphy"+rand+".gif) no-repeat center center fixed");
         $('html').css("-webkit-background-size","cover");
