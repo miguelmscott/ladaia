@@ -40,6 +40,14 @@ body {
 	border-radius: 15px;
 }
 
+/*.paragraph-count {
+	display: none;
+}*/
+
+form#ipsum-form {
+margin-left: 310px;
+}
+
 /*#print-paragraphs:before,
 #print-paragraphs:after{
 	content: '"';

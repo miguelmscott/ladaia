@@ -59,8 +59,10 @@
             <label for="paragraph">Parágrafo</label>
             <br/>
             
-            Paragraphs: 
-            <input id="paragraph_count" style="width: 25px;" type="text" maxlength="2" />
+            <div class="paragraph-count">
+              <span>Parágrafos:</span>
+              <input id="paragraph_count" style="width: 25px;" type="text" maxlength="2" />
+            </div>
 
             <input type="submit" id="submit" value="Submit" />
           </form>
@@ -89,8 +91,13 @@
         $('html').css("-o-background-size","cover");
         $('html').css("background-size","cover");
       });
+      
+      // if ($("#paragraph").is(':checked'))
+      //   $(".paragraph-count").css("display","block");
+      // else ($("#phrase").is(':checked'))
+      //   $(".paragraph-count").css("display","none"); 
+
     });
     </script>
-
   </body>
 </html>
